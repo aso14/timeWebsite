@@ -40,6 +40,6 @@ func Fetch(url string) {
 
 	size := len(body)
 	defer resp.Body.Close()
-	fmt.Printf("Site Web : %s | Taille %d | Temps d'execution : %d\n", url, size, endTime)
+	fmt.Printf("Site Web : %s | Taille %d | Temps d'execution : %s\n", url, size, endTime)
 
 }
